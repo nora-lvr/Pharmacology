@@ -1,0 +1,14 @@
+﻿chase,administrations,interval (days),route,drug,dose (mg/kg),treatment,success,n,source,notes
+,1,0,SQ,enrofloxacin,7.5,control,14,154,https://animaldrugsatfda.fda.gov/adafda/app/search/public/document/downloadFoi/14890,
+,1,0,SQ,enrofloxacin,7.5,abx,209,302,https://animaldrugsatfda.fda.gov/adafda/app/search/public/document/downloadFoi/14890,
+,1,0,SQ,enrofloxacin,12.5,control,7,50,https://animaldrugsatfda.fda.gov/adafda/app/search/public/document/downloadFoi/14890,
+,1,0,SQ,enrofloxacin,12.5,abx,90,102,https://animaldrugsatfda.fda.gov/adafda/app/search/public/document/downloadFoi/14890,
+,3-5,1,SQ,enrofloxacin,5,control,12,50,https://animaldrugsatfda.fda.gov/adafda/app/search/public/document/downloadFoi/14890,
+,3-5,1,SQ,enrofloxacin,5,abx,57,95,https://animaldrugsatfda.fda.gov/adafda/app/search/public/document/downloadFoi/14890,
+,3-5,1,SQ,enrofloxacin,2.5,control,36,149,https://animaldrugsatfda.fda.gov/adafda/app/search/public/document/downloadFoi/14890,
+,3-5,1,SQ,enrofloxacin,2.5,abx,246,296,https://animaldrugsatfda.fda.gov/adafda/app/search/public/document/downloadFoi/14890,
+,1,0,SQ,pradofloxacin,10,control,80.64,315,https://animaldrugsatfda.fda.gov/adafda/app/search/public/document/downloadFoi/15250,"6 removals, don't know from which treatment group"
+,1,0,SQ,pradofloxacin,10,abx,156.5,315,https://animaldrugsatfda.fda.gov/adafda/app/search/public/document/downloadFoi/15250,"6 removals, don't know from which treatment group"
+,1,0,SQ,tulathromycin,2.5,abx,,,https://animaldrugsatfda.fda.gov/adafda/app/search/public/document/downloadFoi/14281,"5 mg/kg was tested and ""no difference"" was found"
+,,,,,,abx,,,,
+,,,,,0,positive control,,,,

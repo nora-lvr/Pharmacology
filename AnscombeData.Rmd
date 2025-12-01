@@ -1,0 +1,40 @@
+---
+title: "Untitled"
+output: html_document
+date: "2025-10-23"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+
+ans<-read_csv('data/anscombes.csv')
+
+ggplot(data = ans, aes(x = x, y = y, color = dataset, fill = dataset))+
+  geom_point()+
+  geom_smooth()+
+  facet_wrap(.~dataset)+
+  theme_bw()+
+  scale_color_manual(values = c("I" = 'red',    "II" = 'blue',   "III" = 'darkgreen',  "IV" = 'orange' ))+
+  scale_fill_manual(values = c("I" = 'red',    "II" = 'blue',   "III" = 'darkgreen',  "IV" = 'orange' ))
+ggsave('Figures/anscombes_smooth.jpg')
+
+ggplot(data = ans, aes(x = x, y = y, color = dataset, fill = dataset))+
+  geom_point()+
+  geom_smooth(method = 'lm')+
+  facet_wrap(.~dataset)+
+  theme_bw()+
+  scale_color_manual(values = c("I" = 'red',    "II" = 'blue',   "III" = 'darkgreen',  "IV" = 'orange' ))+
+  scale_fill_manual(values = c("I" = 'red',    "II" = 'blue',   "III" = 'darkgreen',  "IV" = 'orange' ))
+ggsave('Figures/anscombes_linear.jpg')
+
+ggplot(data = ans, aes(x = x, y = y, color = dataset, fill = dataset))+
+  geom_point()+
+  geom_smooth()+
+  facet_wrap(.~dataset)
+
+```
+

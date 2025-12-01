@@ -175,7 +175,7 @@ ggsave('FiguresAABP/FDAFacilities_pct.jpg', height = 3, width = 5)
 
 date_updated <-'Aug 27, 2025'
 
-green<-read_csv("FDAGreenBook.csv", #Aug 27 2025
+green<-read_csv("FDAGreenBook.csv", #Dec 1 2025
 
 #green<-read_csv("Electronic_Animal_Drug_Product_Listing_Directory.csv", #Mar 2 2024
 # green<-read_csv("Electronic_Animal_Drug_Product_Listing_Directory.csv", #Nov 23 2023
@@ -259,6 +259,8 @@ ggplot(green_plot_overview)+
        subtitle = paste0(date_updated),
        caption = 'LMUNADFMS = Legally Marketed Unapproved New Animal Drugs for Minor Species')
 
+ggsave('Figures/green_summary.jpg')
+
 ```
 
 
@@ -288,6 +290,8 @@ green2_pre<-green_clean%>%
             )%>%
   ungroup()%>%
   mutate(prod_type_short = case_when(
+        (`Product Type` %in% "INTENTIONAL ANIMAL GENOMIC ALTERATION")~"Genomic Alteration",
+   (`Product Type` %in% "ANIMAL CELLS, TISSUES, AND CELL AND TISSUE BASED PRODUCT")~"Cell or Tissue Product",
     (`Product Type` %in% "BULK INGREDIENT")~'Bulk Drug', 
     (`Product Type` %in% "BULK INGREDIENT - ANIMAL DRUG")~'Bulk Drug', 
     (`Product Type` %in% "OTC ANIMAL DRUG")~'OTC - Non Feed', 
@@ -340,6 +344,8 @@ green_app<-green_clean%>%
             )%>%
   ungroup()%>%
   mutate(prod_type_short = case_when(
+    (`Product Type` %in% "INTENTIONAL ANIMAL GENOMIC ALTERATION")~"Genomic Alteration",
+      (`Product Type` %in% "ANIMAL CELLS, TISSUES, AND CELL AND TISSUE BASED PRODUCT")~"Cell or Tissue Product",
     (`Product Type` %in% "BULK INGREDIENT")~'Bulk Drug', 
     (`Product Type` %in% "BULK INGREDIENT - ANIMAL DRUG")~'Bulk Drug', 
     (`Product Type` %in% "OTC ANIMAL DRUG")~'OTC - Non Feed', 
@@ -537,7 +543,7 @@ generics<-green2%>%
   ungroup()
 
 write_csv(generics, 'GreenBookOutput/green_book_examples.csv')
-write_rds(generics, 'shinyGreenbookGenerics/green_book_examples.rds')
+#write_rds(generics, 'shinyGreenbookGenerics/green_book_examples.rds')
 
 
 # generics2<-%>%
