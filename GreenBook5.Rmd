@@ -173,7 +173,7 @@ ggsave('FiguresAABP/FDAFacilities_pct.jpg', height = 3, width = 5)
 #green original
 ```{r}
 
-date_updated <-'Aug 27, 2025'
+date_updated <-'Feb 27, 2026'
 
 green<-read_csv("FDAGreenBook.csv", #Dec 1 2025
 
@@ -234,6 +234,11 @@ green_clean<-green%>%
 
 n_distinct(green$`Application Number or Monograph ID`, na.rm = T)
 
+```
+#marketing categories
+
+```{r}
+sort(unique(green_clean$`Marketing Category`))
 ```
 
 #overview plot
@@ -656,4 +661,80 @@ generics_details<-green2%>%
 
 ```
 
+# Parnell Drug Rep EDU
+
+```{r}
+
+active_ingredient_list <- c(
+  "tulathromycin", "gamithromycin", "tildipironsin", "tilmicosin", "tylosin",
+  "florfenicol", "oxytetracycline", "ceftiofur", "penicillin", 
+  "ampicillin", "enrofloxacin", "danofloxacin", "pradofloxacin", 
+  "sulfadiazine", "sulfadimethoxine", "sulfamethazine", "spectinomycin"
+)
+
+brd_ingredient_list <- c(
+  "tulathromycin", "gamithromycin", "tildipironsin", 
+  "florfenicol",  "enrofloxacin", "danofloxacin", "pradofloxacin"
+)
+
+# Collapse into one regex pattern
+pattern <- str_c(active_ingredient_list, collapse = "|")
+pattern_brd <- str_c(brd_ingredient_list, collapse = "|")
+
+green_parnell <- green_clean %>%
+  filter(!(`Marketing Category` %in% c("BULK INGREDIENT", "Export Only", "UNAPPROVED"))) %>%
+  filter(str_detect(`Ingredient List`, regex(pattern, ignore_case = TRUE)))%>%
+  select(-NDC, -contains('activation'), -`Marketing Category`, -`Non Proprietary Name`)%>%
+  distinct()%>%
+  filter(!(str_detect(`Proprietary Name`, regex("otic|flavored|22|27|veraflox|Osurnia|Component E|Component TE|Enroquin", ignore_case = TRUE))))%>%
+  filter(!(str_detect(`Ingredient List`, 'FUROATE|BUTYL AL')))%>%
+  filter(!(str_detect(`Product Type`, 'VFD')))%>%
+  group_by(`Ingredient List`, `Product Type`, `Application Number or Monograph ID`, Link)%>%
+  summarize(`Proprietary Name` = paste0(unique(`Proprietary Name`), collapse = ','), 
+            `Labeler Name` = paste0(unique(`Labeler Name`), collapse = ',')
+            )%>%
+  ungroup()%>%
+  mutate(`Antimicrobial Class` = 
+           case_when(
+            str_detect(`Ingredient List`, regex('tulathro|gamith|tildi|tilmicosin|tylosin', 
+                                                ignore_case = TRUE))~'Macrolide', 
+            str_detect(`Ingredient List`, regex('florfenicol', 
+                                                ignore_case = TRUE))~'Amphenicol', 
+            str_detect(`Ingredient List`, regex('enroflox|pradoflox|danoflox', 
+                                                ignore_case = TRUE))~'Fluoroquinolone', 
+             str_detect(`Ingredient List`, regex('ceftiofur|ampicillin|penicillin', 
+                                                ignore_case = TRUE))~'BetaLactam/Cephalosporin', 
+              str_detect(`Ingredient List`, regex('oxytetracycline', 
+                                                ignore_case = TRUE))~'Tetracycline', 
+             str_detect(`Ingredient List`, regex('spectinomycin', 
+                                                ignore_case = TRUE))~'Aminocyclitol', 
+
+
+             str_detect(`Ingredient List`, 'SULFA')~'Sulfonamide', 
+            TRUE~'UnClassified'
+             
+           ))%>%
+  mutate(BRD = case_when(
+      str_detect(`Ingredient List`, regex(pattern_brd, ignore_case = TRUE))~'Main BRD Drug', 
+      str_detect(`Proprietary Name`, 'Excede')~'Main BRD Drug',
+      TRUE~'Other Drug')
+      )
+
+write_rds(green_parnell, 'data/green_parnell.rds')
+
+green_parnell_simple<-green_parnell%>%
+  mutate(`Proprietary Name` = str_replace(`Proprietary Name`, ' 25', ''))%>%
+    mutate(`Proprietary Name` = str_replace(`Proprietary Name`, ' 100', ''))%>%
+
+   group_by(`Antimicrobial Class`, `Ingredient List`, BRD)%>%
+  summarize( count_PropName = n_distinct(`Proprietary Name`), 
+            count_Labeler = n_distinct(`Labeler Name`),
+            `Proprietary Name` = paste0(unique(`Proprietary Name`), collapse = ','), 
+            `Labeler Name` = paste0(unique(`Labeler Name`), collapse = ',')
+           
+            )%>%
+  ungroup()
+write_rds(green_parnell_simple, 'data/green_parnell_simple.rds')
+
+```
 
