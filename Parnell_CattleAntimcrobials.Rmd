@@ -1,0 +1,120 @@
+---
+title: "Common Cattle Antimicrobials"
+output: html_document
+date: "2026-02-27"
+---
+
+```{r, include = FALSE}
+
+#NOTE: run GreenBook5.Rmd to create files for this
+
+
+library(tidyverse)
+library(DT)
+library(devtools)
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+source_url('https://raw.githubusercontent.com/nora-lvr/FunctionsLVR/refs/heads/main/DT_base.R')
+
+```
+
+```{r}
+green_parnell<-read_rds('data/green_parnell.rds')
+green_parnell_simple<-read_rds('data/green_parnell_simple.rds')
+```
+
+
+```{r, fig.height = 9, fig.width = 10, out.width="100%"}
+two_line <- function(x) {
+  sapply(x, function(s) {
+    if (!grepl(",", s)) return(s)
+    
+    parts <- strsplit(s, ",", fixed = TRUE)[[1]]
+    parts <- trimws(parts)   # remove leading/trailing spaces
+    
+    n <- length(parts)
+    mid <- ceiling(n / 2)
+    
+    paste0(
+      paste(parts[1:mid], collapse = ", "),
+      ",\n",
+      paste(parts[(mid + 1):n], collapse = ", ")
+    )
+  })
+}
+```
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+```{r, fig.height = 6, out.width='100%'}
+library(ggplot2)
+library(dplyr)
+library(forcats)
+
+green_parnell_simple %>% 
+  filter(BRD %in% "Main BRD Drug") %>%
+  mutate(`Ingredient List` = fct_reorder(`Ingredient List`, count_PropName)) %>%
+  
+  ggplot(aes(x = `Ingredient List`,
+             y = count_PropName,
+             fill = `Antimicrobial Class`)) +
+  
+  geom_col(width = 0.7, color = "white", size = 0.3) +
+  
+  geom_text(aes(label = two_line(`Proprietary Name`)),
+            hjust = -0.05,
+            size = 3.3,
+            color = "grey20") +
+  
+  coord_flip(clip = "off") +
+  
+  scale_y_continuous(expand = expansion(mult = c(0, 0.15))) +
+  
+  scale_fill_manual(values = c(
+    '#1b9e77',
+    '#d95f02',
+    '#7570b3',
+    '#e7298a'
+  )) +
+  
+  labs(
+    x = NULL,
+    y = "Number of Brand Names",
+    fill = "Antimicrobial Class"
+  ) +
+  
+  theme_minimal(base_size = 14) +
+  theme(
+    legend.position = "bottom",
+    legend.title = element_text(face = "bold"),
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.text.y = element_text(face = "bold"),
+    plot.margin = margin(10, 30, 10, 10)
+  ) +
+  labs(fill = '')+
+  guides(fill = guide_legend(nrow = 2))+
+  ylim(c(0, 30))
+
+```
+
+<br>
+<br>
+<br>
+<br>
+
+
+```{r}
+fxn_DT_base2(green_parnell%>%select(`Antimicrobial Class`,  `Proprietary Name`, 
+                                    `Labeler Name`, BRD, `Ingredient List`))
+```
+
+
+
+

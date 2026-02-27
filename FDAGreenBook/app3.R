@@ -10,8 +10,8 @@ library(ggh4x)
 source_url('https://raw.githubusercontent.com/nora-lvr/FunctionsLVR/refs/heads/main/DT_base.R')
  
 
-gb <- read_rds('FDAGreenBook/green2_pre.rds')%>% #for testing
- #gb <- read_rds('green2_pre.rds') %>% #for deploy
+#gb <- read_rds('FDAGreenBook/green2_pre.rds')%>% #for testing
+ gb <- read_rds('green2_pre.rds') %>% #for deploy
   mutate(`Ingredient List` = str_sub(`Ingredient List`, 1, 45)) %>%
   mutate(AprovalType = case_when(
     str_detect(`Application Number or Monograph ID`, 'ANADA') ~ 'ANADA', 
@@ -32,7 +32,7 @@ gb <- read_rds('FDAGreenBook/green2_pre.rds')%>% #for testing
 
 #-----------------------------------------------
 ui <- navbarPage(
-  title = "FDA Green Book (Dec 1, 2025)",
+  title = "FDA Green Book (Data from FDA Electronic Greenbook on Dec 1, 2025)",
   theme = shinytheme("yeti"),
   # theme = bs_theme(version = 5, bootswatch = "minty"),
   
@@ -80,7 +80,13 @@ ui <- navbarPage(
         )
       ),
       mainPanel(
-        plotOutput("distPlot", height = "500px")
+        width = 9,
+        card(
+          title = "FDA Green Book Plot",
+          #full_screen = FALSE,
+          # fill the card width
+          plotOutput("distPlot", width = "98%")
+        )
       )
     )
   ),
