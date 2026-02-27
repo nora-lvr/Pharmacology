@@ -1,0 +1,76 @@
+---
+title: "Elimination Fraction Stuff"
+format: html
+editor: visual
+---
+
+```{r}
+library(tidyverse)
+```
+
+
+# Basic Pk
+
+## Initial Concentration
+```{r}
+
+Dose<-50 
+Vd<-.6
+k<-5
+t<-6
+
+
+C0<-Dose/Vd #initial concentration = dose/volume of distribution
+
+
+C1<-C0 * exp((-1)*k*t)
+
+```
+
+## Elimination Fraction
+
+
+```{r}
+
+t_half<-.5 #half life
+tao<- 2 #dose interval
+cheat<-(-0.693)
+
+#fraction eliminated
+fel<-1-(exp(cheat*(tao-t_half)))
+
+
+```
+
+#examples
+```{r}
+#t_half<-seq(0.25, 1, by = .1) #half life
+t_half<-c(1, 10, 100) #half life
+
+tao<- 2 #dose interval
+cheat<-(-0.693)
+
+#fraction eliminated
+fel<-1-(exp(cheat*(tao-t_half)))
+
+df<-tibble(t_half = t_half, 
+           tao = tao, 
+           cheat = cheat,
+           fel = 1-(exp(cheat*(tao-t_half)))
+)%>%
+  mutate(fr = 1-fel)
+```
+
+
+
+
+```{r}
+ggplot(df)+
+  geom_point(aes(x = t_half, y= fel))+
+  geom_point(aes(x = t_half, y= fr), color = 'red')+
+  theme_bw()
+
+
+```
+
+
