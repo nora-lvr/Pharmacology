@@ -1,0 +1,497 @@
+﻿Analyte,Value_ppm,Ref_Low_ppm,Ref_High_ppm,Flag,Herd,,
+Ca,96.6,30,200,,Booth Creek,,
+Co,0.338,0.02,0.2,H,Booth Creek,,
+Cr,0.037,0.04,3.8,L,Booth Creek,,
+Cu,273,25,150,H,Booth Creek,,
+Fe,155,45,220,,Booth Creek,,
+K,3021,1400,4000,,Booth Creek,,
+Mg,217,100,250,,Booth Creek,,
+Mn,4.816,1.5,5,,Booth Creek,,
+Mo,0.762,0.2,1.4,,Booth Creek,,
+Na,1747,900,3000,,Booth Creek,,
+P,4318,2000,4000,H,Booth Creek,,
+Se,1.621,0.2,0.7,H,Booth Creek,,
+Zn,186,25,125,H,Booth Creek,,
+Vitamin A,83.605,50,88,,Booth Creek,,
+Analyte,Value_ppm,Ref_Low_ppm,Ref_High_ppm,Flag,River Creek,,
+Ca,63.8,30,200,,River Creek,,
+Co,0.053,0.02,0.2,,River Creek,,
+Cr,0.036,0.04,3.8,L,River Creek,,
+Cu,23,25,150,L,River Creek,,
+Fe,65,45,220,,River Creek,,
+K,3103,1400,4000,,River Creek,,
+Mg,178,100,250,,River Creek,,
+Mn,2.409,1.5,5,,River Creek,,
+Mo,0.547,0.2,1.4,,River Creek,,
+Na,1259,900,3000,,River Creek,,
+P,2767,2000,4000,,River Creek,,
+Se,0.427,0.2,0.7,,River Creek,,
+Zn,73,25,125,,River Creek,,
+Vitamin A,66.586,100,200,L,River Creek,,
+Analyte,Value_ppm,Ref_Low_ppm,Ref_High_ppm,Flag,River Creek,,
+Ca,91.2,30,200,,River Creek,,
+Co,0.046,0.02,0.2,,River Creek,,
+Cr,0.014,0.04,3.8,L,River Creek,,
+Cu,60,25,150,,River Creek,,
+Fe,123,45,220,,River Creek,,
+K,1763,1400,4000,,River Creek,,
+Mg,121,100,250,,River Creek,,
+Mn,1.416,1.5,5,L,River Creek,,
+Mo,0.582,0.2,1.4,,River Creek,,
+Na,1647,900,3000,,River Creek,,
+P,3391,2000,4000,,River Creek,,
+Se,0.754,0.2,0.7,H,River Creek,,
+Zn,54,25,125,,River Creek,,
+Vitamin A,30.628,100,200,L,River Creek,,
+Analyte,Value_ppm,Ref_Low_ppm,Ref_High_ppm,Flag,Booth Creek,,
+Ca,42.1,30,200,,Booth Creek,,
+Co,0.823,0.02,0.2,H,Booth Creek,,
+Cr,0.031,0.04,3.8,L,Booth Creek,,
+Cu,123,25,150,,Booth Creek,,
+Fe,106,45,220,,Booth Creek,,
+K,3014,1400,4000,,Booth Creek,,
+Mg,159,100,250,,Booth Creek,,
+Mn,2.204,1.5,5,,Booth Creek,,
+Mo,0.804,0.2,1.4,,Booth Creek,,
+Na,822,900,3000,L,Booth Creek,,
+P,3683,2000,4000,,Booth Creek,,
+Se,0.659,0.2,0.7,,Booth Creek,,
+Zn,62,25,125,,Booth Creek,,
+Vitamin A,52.244,100,200,L,Booth Creek,,
+Analyte,Value_ppm,Ref_Low_ppm,Ref_High_ppm,Flag,jeff schurle,dystocia born dead,
+Ca,105.5,30,200,,jeff schurle,dystocia born dead,
+Co,0.037,0.02,0.2,,jeff schurle,dystocia born dead,
+Cr,0.181,0.04,3.8,,jeff schurle,dystocia born dead,
+Cu,93,25,150,,jeff schurle,dystocia born dead,
+Fe,87,45,220,,jeff schurle,dystocia born dead,
+K,3695,1400,4000,,jeff schurle,dystocia born dead,
+Mg,185,100,250,,jeff schurle,dystocia born dead,
+Mn,1.374,1.5,5,L,jeff schurle,dystocia born dead,
+Mo,0.423,0.2,1.4,,jeff schurle,dystocia born dead,
+Na,1654,900,3000,,jeff schurle,dystocia born dead,
+P,3850,2000,4000,,jeff schurle,dystocia born dead,
+Se,0.464,0.2,0.7,,jeff schurle,dystocia born dead,
+Zn,84,25,125,,jeff schurle,dystocia born dead,
+Vitamin A,0,100,200,,jeff schurle,dystocia born dead,
+Analyte,Value_ppm,Ref_Low_ppm,Ref_High_ppm,Flag,Booth Creek,,
+Ca,62.6,30,200,,Booth Creek,,
+Co,8.51,0.02,0.2,H,Booth Creek,,
+Cr,0.034,0.04,3.8,L,Booth Creek,,
+Cu,117,25,150,,Booth Creek,,
+Fe,125,45,220,,Booth Creek,,
+K,2924,1400,4000,,Booth Creek,,
+Mg,226,100,250,,Booth Creek,,
+Mn,4.856,1.5,5,,Booth Creek,,
+Mo,0.898,0.2,1.4,,Booth Creek,,
+Na,1448,900,3000,,Booth Creek,,
+P,3385,2000,4000,,Booth Creek,,
+Se,0.521,0.2,0.7,,Booth Creek,,
+Zn,59,25,125,,Booth Creek,,
+Vitamin A,166.047,100,200,,Booth Creek,,
+Analyte,Value_ppm,Ref_Low_ppm,Ref_High_ppm,Flag,jeff schurle,calf 2 weeks sick with crypto,
+Ca,60.6,30,200,,jeff schurle,calf 2 weeks sick with crypto,
+Co,0.016,0.02,0.2,L,jeff schurle,calf 2 weeks sick with crypto,
+Cr,0.019,0.04,3.8,L,jeff schurle,calf 2 weeks sick with crypto,
+Cu,93,25,150,,jeff schurle,calf 2 weeks sick with crypto,
+Fe,233,45,220,H,jeff schurle,calf 2 weeks sick with crypto,
+K,2504,1400,4000,,jeff schurle,calf 2 weeks sick with crypto,
+Mg,131,100,250,,jeff schurle,calf 2 weeks sick with crypto,
+Mn,0.913,1.5,5,L,jeff schurle,calf 2 weeks sick with crypto,
+Mo,0.209,0.2,1.4,,jeff schurle,calf 2 weeks sick with crypto,
+Na,1619,900,3000,,jeff schurle,calf 2 weeks sick with crypto,
+P,3207,2000,4000,,jeff schurle,calf 2 weeks sick with crypto,
+Se,0.461,0.2,0.7,,jeff schurle,calf 2 weeks sick with crypto,
+Zn,150,25,125,H,jeff schurle,calf 2 weeks sick with crypto,
+Analyte,Value_ppm,Ref_Low_ppm,Ref_High_ppm,Flag,wickstrum farms,Animal_Id,
+Ca,214,30,200,H,wickstrum farms,TWIN 1,
+Co,0.008,0.01,0.063,L,wickstrum farms,TWIN 1,
+Cr,0.03,0.001,,,wickstrum farms,TWIN 1,
+Cu,37,40,170,L,wickstrum farms,TWIN 1,
+Fe,226,40,400,,wickstrum farms,TWIN 1,
+K,2101,1400,4000,,wickstrum farms,TWIN 1,
+Mg,101,100,250,,wickstrum farms,TWIN 1,
+Mn,0.685,0.7,3.5,L,wickstrum farms,TWIN 1,
+Mo,0.106,0.2,0.6,L,wickstrum farms,TWIN 1,
+Na,2458,900,3000,,wickstrum farms,TWIN 1,
+P,1413,2000,4000,L,wickstrum farms,TWIN 1,
+Se,0.664,0.3,1.5,,wickstrum farms,TWIN 1,
+Zn,71,37,205,,wickstrum farms,TWIN 1,
+Ca,318,30,200,H,wickstrum farms,TWIN 2,
+Co,0.01,0.01,0.063,,wickstrum farms,TWIN 2,
+Cr,0.015,0.001,,,wickstrum farms,TWIN 2,
+Cu,31,40,170,L,wickstrum farms,TWIN 2,
+Fe,37,40,400,L,wickstrum farms,TWIN 2,
+K,1859,1400,4000,,wickstrum farms,TWIN 2,
+Mg,114,100,250,,wickstrum farms,TWIN 2,
+Mn,0.676,0.7,3.5,L,wickstrum farms,TWIN 2,
+Mo,0.14,0.2,0.6,L,wickstrum farms,TWIN 2,
+Na,2331,900,3000,,wickstrum farms,TWIN 2,
+P,1472,2000,4000,L,wickstrum farms,TWIN 2,
+Se,0.64,0.3,1.5,,wickstrum farms,TWIN 2,
+Zn,86,37,205,,wickstrum farms,TWIN 2,
+Analyte,Value_ppm,Ref_Low_ppm,Ref_High_ppm,,wickstrum farms,still born,
+Ca,92,30,200,,wickstrum farms,still born,
+Co,0.026,0.01,0.063,,wickstrum farms,still born,
+Cr,0.032,0.001,,,wickstrum farms,still born,
+Cu,96,40,170,,wickstrum farms,still born,
+Fe,201,40,400,,wickstrum farms,still born,
+K,3747,1400,4000,,wickstrum farms,still born,
+Mg,151,100,250,,wickstrum farms,still born,
+Mn,1.21,0.7,3.5,,wickstrum farms,still born,
+Mo,0.273,0.2,0.6,,wickstrum farms,still born,
+Na,1607,900,3000,,wickstrum farms,still born,
+P,2895,2000,4000,,wickstrum farms,still born,
+Se,0.637,0.3,1.5,,wickstrum farms,still born,
+Zn,126,37,205,,wickstrum farms,still born,
+Analyte,Value_ppm,Ref_Low_ppm,Ref_High_ppm,Flag,River Creek,,
+Ca,46.3,30,200,,River Creek,,
+Co,0.1,0.02,0.2,,River Creek,,
+Cr,0.026,0.04,3.8,L,River Creek,,
+Cu,32,25,150,,River Creek,,
+Fe,49,45,220,,River Creek,,
+K,3318,1400,4000,,River Creek,,
+Mg,202,100,250,,River Creek,,
+Mn,1.986,1.5,5,,River Creek,,
+Mo,0.89,0.2,1.4,,River Creek,,
+Na,923,900,3000,,River Creek,,
+P,5256,2000,4000,H,River Creek,,
+Se,0.519,0.2,0.7,,River Creek,,
+Zn,120,25,125,,River Creek,,
+Vitamin A,72.697,50,88,,River Creek,,
+Analyte,Value_ppm,Ref_Low_ppm,Ref_High_ppm,Flag,River Creek,,
+Ca,116,30,200,,River Creek,,
+Co,0.034,0.01,0.063,,River Creek,,
+Cr,0.033,0.001,,,River Creek,,
+Cu,176,40,170,H,River Creek,,
+Fe,50,40,400,,River Creek,,
+K,1843,1400,4000,,River Creek,,
+Mg,129,100,250,,River Creek,,
+Mn,1.342,0.7,3.5,,River Creek,,
+Mo,0.23,0.2,0.6,,River Creek,,
+Na,1781,900,3000,,River Creek,,
+P,3073,2000,4000,,River Creek,,
+Se,0.608,0.3,1.5,,River Creek,,
+Zn,108,37,205,,River Creek,,
+Analyte,Value_ppm,Ref_Low_ppm,Ref_High_ppm,Flag,River Creek,,
+Ca,97,30,200,,River Creek,,
+Co,0.032,0.01,0.063,,River Creek,,
+Cr,0.015,0.001,,,River Creek,,
+Cu,199,40,170,H,River Creek,,
+Fe,295,40,400,,River Creek,,
+K,2525,1400,4000,,River Creek,,
+Mg,155,100,250,,River Creek,,
+Mn,1.323,0.7,3.5,,River Creek,,
+Mo,0.254,0.2,0.6,,River Creek,,
+Na,2054,900,3000,,River Creek,,
+P,4164,2000,4000,H,River Creek,,
+Se,2.526,0.3,1.5,H,River Creek,,
+Zn,28,37,205,L,River Creek,,
+Analyte,Value_ppm,Ref_Low_ppm,Ref_High_ppm,Flag,River Creek,418,
+Ca,116,30,200,,River Creek,418,
+Co,0.034,0.01,0.063,,River Creek,418,
+Cr,0.033,0.001,,,River Creek,418,
+Cu,176,40,170,H,River Creek,418,
+Fe,50,40,400,,River Creek,418,
+K,1843,1400,4000,,River Creek,418,
+Mg,129,100,250,,River Creek,418,
+Mn,1.342,0.7,3.5,,River Creek,418,
+Mo,0.23,0.2,0.6,,River Creek,418,
+Na,1781,900,3000,,River Creek,418,
+P,3073,2000,4000,,River Creek,418,
+Se,0.608,0.3,1.5,,River Creek,418,
+Zn,108,37,205,,River Creek,418,
+Analyte,Value_ppm,Ref_Low_ppm,Ref_High_ppm,Flag,wickstrum farms,6018,
+Ca,138,30,200,,wickstrum farms,6018,
+Co,0.027,0.01,0.063,,wickstrum farms,6018,
+Cr,0.025,0.001,,,wickstrum farms,6018,
+Cu,148,40,170,,wickstrum farms,6018,
+Fe,76,40,400,,wickstrum farms,6018,
+K,4258,1400,4000,H,wickstrum farms,6018,
+Mg,232,100,250,H,wickstrum farms,6018,
+Mn,4.257,0.7,3.5,H,wickstrum farms,6018,
+Mo,0.226,0.2,0.6,,wickstrum farms,6018,
+Na,1875,900,3000,,wickstrum farms,6018,
+P,3443,2000,4000,,wickstrum farms,6018,
+Se,2.262,0.3,1.5,H,wickstrum farms,6018,
+Zn,142,37,205,,wickstrum farms,6018,
+Vitamin E,304.195,1,2.5,H,wickstrum farms,6018,
+,Value_ppm,Ref_Low_ppm,Ref_High_ppm,Flag,Matt Sullivan,Animal_Id,
+Ca,125,80,865,,Matt Sullivan,YELLOW 122,
+Co,0.325,0.1,0.7,,Matt Sullivan,YELLOW 122,
+Cr,0.359,0.14,13.3,,Matt Sullivan,YELLOW 122,
+Cu,117.737,88,525,,Matt Sullivan,YELLOW 122,
+Fe,307,151,1050,,Matt Sullivan,YELLOW 122,
+K,9849,3900,14000,,Matt Sullivan,YELLOW 122,
+Mg,580,250,875,,Matt Sullivan,YELLOW 122,
+Mn,9.749,5.25,18,,Matt Sullivan,YELLOW 122,
+Mo,4.217,0.7,5,,Matt Sullivan,YELLOW 122,
+Na,3239,0.7,5,,Matt Sullivan,YELLOW 122,
+P,12095,2015,10500,,Matt Sullivan,YELLOW 122,
+Se,1.772,5100,14000,,Matt Sullivan,YELLOW 122,
+Zn,149,88,438,,Matt Sullivan,YELLOW 122,
+,,,,,Matt Sullivan,,
+Ca,162,80,865,,Matt Sullivan,YELLOW 303,
+Co,0.27,0.1,0.7,,Matt Sullivan,YELLOW 303,
+Cr,0.519,0.14,13.3,,Matt Sullivan,YELLOW 303,
+Cu,101.064,88,525,,Matt Sullivan,YELLOW 303,
+Fe,351,151,1050,,Matt Sullivan,YELLOW 303,
+K,12186,3900,14000,,Matt Sullivan,YELLOW 303,
+Mg,721,250,875,,Matt Sullivan,YELLOW 303,
+Mn,8.19,5.25,18,,Matt Sullivan,YELLOW 303,
+Mo,4.474,0.7,5,,Matt Sullivan,YELLOW 303,
+Na,3802,2015,10500,,Matt Sullivan,YELLOW 303,
+P,13217,5100,14000,,Matt Sullivan,YELLOW 303,
+Se,1.836,0.7,2.5,,Matt Sullivan,YELLOW 303,
+Zn,185,88,438,,Matt Sullivan,YELLOW 303,
+,,,,,Matt Sullivan,,
+Ca,142,80,865,,Matt Sullivan,YELLOW 319,
+Co,0.275,0.1,0.7,,Matt Sullivan,YELLOW 319,
+Cr,1.19,0.14,13.3,,Matt Sullivan,YELLOW 319,
+Cu,77.096,88,525,,Matt Sullivan,YELLOW 319,
+Fe,295,151,1050,,Matt Sullivan,YELLOW 319,
+K,11374,3900,14000,,Matt Sullivan,YELLOW 319,
+Mg,670,250,875,,Matt Sullivan,YELLOW 319,
+Mn,11.224,5.25,18,,Matt Sullivan,YELLOW 319,
+Mo,3.848,0.7,5,,Matt Sullivan,YELLOW 319,
+Na,3406,2015,10500,,Matt Sullivan,YELLOW 319,
+P,13177,5100,14000,,Matt Sullivan,YELLOW 319,
+Se,1.928,0.7,2.5,,Matt Sullivan,YELLOW 319,
+Zn,117,88,438,,Matt Sullivan,YELLOW 319,
+,,,,,Matt Sullivan,,
+Ca,139,80,865,,Matt Sullivan,YELLOW 340,
+Co,0.258,0.1,0.7,,Matt Sullivan,YELLOW 340,
+Cr,0.78,0.14,13.3,,Matt Sullivan,YELLOW 340,
+Cu,7.787,88,525,,Matt Sullivan,YELLOW 340,
+Fe,513,151,1050,,Matt Sullivan,YELLOW 340,
+K,10947,3900,14000,,Matt Sullivan,YELLOW 340,
+Mg,639,250,875,,Matt Sullivan,YELLOW 340,
+Mn,9.879,5.25,18,,Matt Sullivan,YELLOW 340,
+Mo,3.781,0.7,5,,Matt Sullivan,YELLOW 340,
+Na,3648,2015,10500,,Matt Sullivan,YELLOW 340,
+P,12253,5100,14000,,Matt Sullivan,YELLOW 340,
+Se,1.702,0.7,2.5,,Matt Sullivan,YELLOW 340,
+Zn,117,88,438,,Matt Sullivan,YELLOW 340,
+,,,,,Matt Sullivan,,
+Ca,171,80,865,,Matt Sullivan,YELLOW 348,
+Co,0.282,0.1,0.7,,Matt Sullivan,YELLOW 348,
+Cr,0.472,0.14,13.3,,Matt Sullivan,YELLOW 348,
+Cu,26.097,88,525,,Matt Sullivan,YELLOW 348,
+Fe,585,151,1050,,Matt Sullivan,YELLOW 348,
+K,12919,3900,14000,,Matt Sullivan,YELLOW 348,
+Mg,752,250,875,,Matt Sullivan,YELLOW 348,
+Mn,10.4,5.25,18,,Matt Sullivan,YELLOW 348,
+Mo,4.688,0.7,5,,Matt Sullivan,YELLOW 348,
+Na,2992,2015,10500,,Matt Sullivan,YELLOW 348,
+P,14068,5100,14000,,Matt Sullivan,YELLOW 348,
+Se,1.555,0.7,2.5,,Matt Sullivan,YELLOW 348,
+Zn,164,88,438,,Matt Sullivan,YELLOW 348,
+,,,,,Matt Sullivan,,
+Ca,142,80,865,,Matt Sullivan,YELLOW 394,
+Co,0.276,0.1,0.7,,Matt Sullivan,YELLOW 394,
+Cr,1.112,0.14,13.3,,Matt Sullivan,YELLOW 394,
+Cu,123.118,88,525,,Matt Sullivan,YELLOW 394,
+Fe,234,151,1050,,Matt Sullivan,YELLOW 394,
+K,11796,3900,14000,,Matt Sullivan,YELLOW 394,
+Mg,692,250,875,,Matt Sullivan,YELLOW 394,
+Mn,8.608,5.25,18,,Matt Sullivan,YELLOW 394,
+Mo,3.423,0.7,5,,Matt Sullivan,YELLOW 394,
+Na,3177,2015,10500,,Matt Sullivan,YELLOW 394,
+P,11388,5100,14000,,Matt Sullivan,YELLOW 394,
+Se,2.085,0.7,2.5,,Matt Sullivan,YELLOW 394,
+Zn,136,88,438,,Matt Sullivan,YELLOW 394,
+,,,,,Matt Sullivan,,
+Ca,158,80,865,,Matt Sullivan,YELLOW 398,
+Co,0.256,0.1,0.7,,Matt Sullivan,YELLOW 398,
+Cr,0.831,0.14,13.3,,Matt Sullivan,YELLOW 398,
+Cu,54.756,88,525,,Matt Sullivan,YELLOW 398,
+Fe,487,151,1050,,Matt Sullivan,YELLOW 398,
+K,12028,3900,14000,,Matt Sullivan,YELLOW 398,
+Mg,711,250,875,,Matt Sullivan,YELLOW 398,
+Mn,13.483,5.25,18,,Matt Sullivan,YELLOW 398,
+Mo,4.916,0.7,5,,Matt Sullivan,YELLOW 398,
+Na,4090,2015,10500,,Matt Sullivan,YELLOW 398,
+P,14139,5100,14000,,Matt Sullivan,YELLOW 398,
+Se,3.063,0.7,2.5,,Matt Sullivan,YELLOW 398,
+Zn,115,88,438,,Matt Sullivan,YELLOW 398,
+,,,,,Matt Sullivan,,
+Ca,210,80,865,,Matt Sullivan,YELLOW 517,
+Co,0.24,0.1,0.7,,Matt Sullivan,YELLOW 517,
+Cr,0.497,0.14,13.3,,Matt Sullivan,YELLOW 517,
+Cu,29.571,88,525,,Matt Sullivan,YELLOW 517,
+Fe,531,151,1050,,Matt Sullivan,YELLOW 517,
+K,10385,3900,14000,,Matt Sullivan,YELLOW 517,
+Mg,597,250,875,,Matt Sullivan,YELLOW 517,
+Mn,8.453,5.25,18,,Matt Sullivan,YELLOW 517,
+Mo,3.328,0.7,5,,Matt Sullivan,YELLOW 517,
+Na,6422,2015,10500,,Matt Sullivan,YELLOW 517,
+P,11622,5100,14000,,Matt Sullivan,YELLOW 517,
+Se,1.691,0.7,2.5,,Matt Sullivan,YELLOW 517,
+Zn,114,88,438,,Matt Sullivan,YELLOW 517,
+,,,,,Matt Sullivan,,
+Ca,176,80,865,,Matt Sullivan,YELLOW 44J,
+Co,0.165,0.1,0.7,,Matt Sullivan,YELLOW 44J,
+Cr,1.586,0.14,13.3,,Matt Sullivan,YELLOW 44J,
+Cu,75.531,88,525,,Matt Sullivan,YELLOW 44J,
+Fe,517,151,1050,,Matt Sullivan,YELLOW 44J,
+K,8937,3900,14000,,Matt Sullivan,YELLOW 44J,
+Mg,542,250,875,,Matt Sullivan,YELLOW 44J,
+Mn,5.932,5.25,18,,Matt Sullivan,YELLOW 44J,
+Mo,2.825,0.7,5,,Matt Sullivan,YELLOW 44J,
+Na,5259,2015,10500,,Matt Sullivan,YELLOW 44J,
+P,9080,5100,14000,,Matt Sullivan,YELLOW 44J,
+Se,0.865,0.7,2.5,,Matt Sullivan,YELLOW 44J,
+Zn,127,88,438,,Matt Sullivan,YELLOW 44J,
+,,,,,Matt Sullivan,,
+Ca,137,80,865,,Matt Sullivan,YELLOW 7797,
+Co,0.276,0.1,0.7,,Matt Sullivan,YELLOW 7797,
+Cr,0.473,0.14,13.3,,Matt Sullivan,YELLOW 7797,
+Cu,373.275,88,525,,Matt Sullivan,YELLOW 7797,
+Fe,237,151,1050,,Matt Sullivan,YELLOW 7797,
+K,11922,3900,14000,,Matt Sullivan,YELLOW 7797,
+Mg,643,250,875,,Matt Sullivan,YELLOW 7797,
+Mn,9.291,5.25,18,,Matt Sullivan,YELLOW 7797,
+Mo,4.24,0.7,5,,Matt Sullivan,YELLOW 7797,
+Na,3052,2015,10500,,Matt Sullivan,YELLOW 7797,
+P,12681,5100,14000,,Matt Sullivan,YELLOW 7797,
+Se,2.379,0.7,2.5,,Matt Sullivan,YELLOW 7797,
+Zn,270,88,438,,Matt Sullivan,YELLOW 7797,
+Analyte,Value_ppm,Ref_Low_ppm,Ref_High_ppm,Flag,wickstrum farms,Animal_Id,Specimen_Desc
+Ca,74,30,200,,wickstrum farms,STILLBORN,LIVER
+Co,0.009,0.01,0.063,L,wickstrum farms,STILLBORN,LIVER
+Cu,33,40,170,L,wickstrum farms,STILLBORN,LIVER
+Fe,310,40,400,,wickstrum farms,STILLBORN,LIVER
+K,1299,1400,4000,L,wickstrum farms,STILLBORN,LIVER
+Mg,88,100,250,L,wickstrum farms,STILLBORN,LIVER
+Mn,0.74,0.7,3.5,,wickstrum farms,STILLBORN,LIVER
+Mo,0.166,0.2,0.6,L,wickstrum farms,STILLBORN,LIVER
+Na,1287,900,3000,,wickstrum farms,STILLBORN,LIVER
+P,1814,2000,4000,L,wickstrum farms,STILLBORN,LIVER
+Se,0.409,0.3,1.5,,wickstrum farms,STILLBORN,LIVER
+Zn,61,37,205,,wickstrum farms,STILLBORN,LIVER
+Vitamin E,1.09,4,10,L,wickstrum farms,STILLBORN,LIVER
+Analyte,Value_ppm,Ref_Low_ppm,Ref_High_ppm,Flag,Matt Sullivan,Animal_Id,Specimen_Desc
+Ca,44,30,200,,Matt Sullivan,CALF,LIVER
+Co,0.022,0.01,0.063,,Matt Sullivan,CALF,LIVER
+Cu,85,40,170,,Matt Sullivan,CALF,LIVER
+Fe,51,40,400,,Matt Sullivan,CALF,LIVER
+K,2355,1400,4000,,Matt Sullivan,CALF,LIVER
+Mg,119,100,250,,Matt Sullivan,CALF,LIVER
+Mn,0.952,0.7,3.5,,Matt Sullivan,CALF,LIVER
+Mo,0.275,0.2,0.6,,Matt Sullivan,CALF,LIVER
+Na,899,900,3000,L,Matt Sullivan,CALF,LIVER
+P,2285,2000,4000,,Matt Sullivan,CALF,LIVER
+Se,0.385,0.3,1.5,,Matt Sullivan,CALF,LIVER
+Zn,58,37,205,,Matt Sullivan,CALF,LIVER
+Analyte,Value_ppm,Ref_Low_ppm,Ref_High_ppm,Flag,Ron Pope,Animal_Id,Specimen_Desc
+Ca,35.1,30,200,,Ron Pope,Down Cow with Diarrhea,LIVER
+Co,0.048,0.02,0.2,,Ron Pope,Down Cow with Diarrhea,LIVER
+Cr,0.033,0.04,3.8,L,Ron Pope,Down Cow with Diarrhea,LIVER
+Cu,10,25,150,L,Ron Pope,Down Cow with Diarrhea,LIVER
+Fe,192,45,220,,Ron Pope,Down Cow with Diarrhea,LIVER
+K,1871,1400,4000,,Ron Pope,Down Cow with Diarrhea,LIVER
+Mg,152,100,250,,Ron Pope,Down Cow with Diarrhea,LIVER
+Mn,1.584,1.5,5,,Ron Pope,Down Cow with Diarrhea,LIVER
+Mo,0.728,0.2,1.4,,Ron Pope,Down Cow with Diarrhea,LIVER
+Na,1070,900,3000,,Ron Pope,Down Cow with Diarrhea,LIVER
+P,2372,2000,4000,,Ron Pope,Down Cow with Diarrhea,LIVER
+Se,0.222,0.2,0.7,,Ron Pope,Down Cow with Diarrhea,LIVER
+Zn,66,25,125,,Ron Pope,Down Cow with Diarrhea,LIVER
+Analyte,Value_ppm,Ref_Low_ppm,Ref_High_ppm,Flag,Matt Sullivan,Animal_Id,Specimen_Desc
+Ca,84.8,30,200,,Matt Sullivan,CALF,LIVER
+Co,0.039,0.02,0.2,,Matt Sullivan,CALF,LIVER
+Cr,0.027,0.04,3.8,L,Matt Sullivan,CALF,LIVER
+Cu,50,25,150,,Matt Sullivan,CALF,LIVER
+Fe,88,45,220,,Matt Sullivan,CALF,LIVER
+K,2690,1400,4000,,Matt Sullivan,CALF,LIVER
+Mg,198,100,250,,Matt Sullivan,CALF,LIVER
+Mn,1.247,1.5,5,L,Matt Sullivan,CALF,LIVER
+Mo,0.407,0.2,1.4,,Matt Sullivan,CALF,LIVER
+Na,2078,900,3000,,Matt Sullivan,CALF,LIVER
+P,4053,2000,4000,H,Matt Sullivan,CALF,LIVER
+Se,0.751,0.2,0.7,H,Matt Sullivan,CALF,LIVER
+Zn,78,25,125,,Matt Sullivan,CALF,LIVER
+Analyte,Value_ppm,Ref_Low_ppm,Ref_High_ppm,Flag,River Creek,Animal_Id,Specimen_Desc
+Ca,89,30,200,,River Creek,NO ID,LIVER
+Co,0.05,0.02,0.2,,River Creek,NO ID,LIVER
+Cr,0.02,0.04,3.8,L,River Creek,NO ID,LIVER
+Cu,19,25,150,L,River Creek,NO ID,LIVER
+Fe,62,45,220,,River Creek,NO ID,LIVER
+K,3577,1400,4000,,River Creek,NO ID,LIVER
+Mg,188,100,250,,River Creek,NO ID,LIVER
+Mn,1.955,1.5,5,,River Creek,NO ID,LIVER
+Mo,0.585,0.2,1.4,,River Creek,NO ID,LIVER
+Na,1517,900,3000,,River Creek,NO ID,LIVER
+P,2433,2000,4000,,River Creek,NO ID,LIVER
+Se,0.292,0.2,0.7,,River Creek,NO ID,LIVER
+Zn,62,25,125,,River Creek,NO ID,LIVER
+,,,,,River Creek,,
+Ca,79.3,30,200,,River Creek,417L,LIVER
+Co,0.03,0.02,0.2,,River Creek,417L,LIVER
+Cr,0.018,0.04,3.8,L,River Creek,417L,LIVER
+Cu,9,25,150,L,River Creek,417L,LIVER
+Fe,92,45,220,,River Creek,417L,LIVER
+K,4621,1400,4000,H,River Creek,417L,LIVER
+Mg,222,100,250,,River Creek,417L,LIVER
+Mn,2.495,1.5,5,,River Creek,417L,LIVER
+Mo,0.537,0.2,1.4,,River Creek,417L,LIVER
+Na,1204,900,3000,,River Creek,417L,LIVER
+P,2645,2000,4000,,River Creek,417L,LIVER
+Se,0.324,0.2,0.7,,River Creek,417L,LIVER
+Zn,65,25,125,,River Creek,417L,LIVER
+Analyte,Value_ppm,Ref_Low_ppm,Ref_High_ppm,Flag,Rootring Farms,Animal_Id,Specimen_Desc
+Ca,49.7,30,200,,Rootring Farms,C16,Injected
+Co,0.055,0.02,0.2,,Rootring Farms,C16,Injected
+Cr,0.045,0.04,3.8,,Rootring Farms,C16,Injected
+Cu,66,25,150,,Rootring Farms,C16,Injected
+Fe,46,45,220,,Rootring Farms,C16,Injected
+K,1993,1400,4000,,Rootring Farms,C16,Injected
+Mg,112,100,250,,Rootring Farms,C16,Injected
+Mn,1.179,1.5,5,L,Rootring Farms,C16,Injected
+Mo,0.329,0.2,1.4,,Rootring Farms,C16,Injected
+Na,734,900,3000,L,Rootring Farms,C16,Injected
+P,2417,2000,4000,,Rootring Farms,C16,Injected
+Se,0.223,0.2,0.7,,Rootring Farms,C16,Injected
+Zn,60,25,125,,Rootring Farms,C16,Injected
+Vitamin A,292.623,50,88,H,Rootring Farms,C16,Injected
+Analyte,Value_ppm,Ref_Low_ppm,Ref_High_ppm,Flag,River Creek,Animal_Id,
+Vitamin A,101.369,50,88,H,River Creek,206L,Injected??
+Ca,46.1,30,200,,River Creek,206L,Injected??
+Co,0.052,0.02,0.2,,River Creek,206L,Injected??
+Cr,0.019,0.04,3.8,L,River Creek,206L,Injected??
+Cu,26,25,150,,River Creek,206L,Injected??
+Fe,45,45,220,,River Creek,206L,Injected??
+K,2329,1400,4000,,River Creek,206L,Injected??
+Mg,158,100,250,,River Creek,206L,Injected??
+Mn,1.515,1.5,5,,River Creek,206L,Injected??
+Mo,0.828,0.2,1.4,,River Creek,206L,Injected??
+Na,1058,900,3000,,River Creek,206L,Injected??
+P,4094,2000,4000,H,River Creek,206L,Injected??
+Se,0.31,0.2,0.7,,River Creek,206L,Injected??
+Zn,77,25,125,,River Creek,206L,Injected??
+,,,,,,,
+Ca,122,30,200,,wickstrum farms,6006,LIVER
+Co,0.028,0.01,0.063,,wickstrum farms,6006,LIVER
+Cr,0.041,0.001,,,wickstrum farms,6006,LIVER
+Cu,152,40,170,,wickstrum farms,6006,LIVER
+Fe,98,40,400,,wickstrum farms,6006,LIVER
+K,3393,1400,4000,,wickstrum farms,6006,LIVER
+Mg,176,100,250,,wickstrum farms,6006,LIVER
+Mn,1.414,0.7,3.5,,wickstrum farms,6006,LIVER
+Mo,0.287,0.2,0.6,,wickstrum farms,6006,LIVER
+Na,1928,900,3000,,wickstrum farms,6006,LIVER
+P,3614,2000,4000,,wickstrum farms,6006,LIVER
+Se,0.927,0.3,1.5,,wickstrum farms,6006,LIVER
+Zn,37,37,205,,wickstrum farms,6006,LIVER
+Ca,136,30,200,,wickstrum farms,5215,LIVER
+Co,0.012,0.01,0.063,,wickstrum farms,5215,LIVER
+Cr,0.052,0.001,,,wickstrum farms,5215,LIVER
+Cu,171,40,170,H,wickstrum farms,5215,LIVER
+Fe,248,40,400,,wickstrum farms,5215,LIVER
+K,2128,1400,4000,,wickstrum farms,5215,LIVER
+Mg,116,100,250,,wickstrum farms,5215,LIVER
+Mn,0.607,0.7,3.5,L,wickstrum farms,5215,LIVER
+Mo,0.213,0.2,0.6,,wickstrum farms,5215,LIVER
+Na,1941,900,3000,,wickstrum farms,5215,LIVER
+P,2054,2000,4000,,wickstrum farms,5215,LIVER
+Se,1.322,0.3,1.5,,wickstrum farms,5215,LIVER
+Zn,91,37,205,,wickstrum farms,5215,LIVER
