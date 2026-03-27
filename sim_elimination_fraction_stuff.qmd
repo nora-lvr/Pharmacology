@@ -15,7 +15,7 @@ library(tidyverse)
 ```{r}
 
 Dose<-50 
-Vd<-.6
+Vd<-0.6
 k<-5
 t<-6
 
@@ -44,8 +44,8 @@ fel<-1-(exp(cheat*(tao-t_half)))
 
 #examples
 ```{r}
-#t_half<-seq(0.25, 1, by = .1) #half life
-t_half<-c(1, 10, 100) #half life
+t_half<-seq(0.25, 1, by = .1) #half life
+#t_half<-c(1, 10, 100) #half life
 
 tao<- 2 #dose interval
 cheat<-(-0.693)
